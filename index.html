@@ -12,17 +12,28 @@
         <div class="background-photo-one">
         <h1><u>Welcome to Scott's Page</u></h1>
         </div>
+        <div class="space-container"></div>
         <div class="intro">
           <p><span class="span-large-letter"><span class="large-letter">T</span></span>he purpose of this webpage is to help me learn web development. 
           As I learn new things, I will use this webpage to practice, so expect the majority of the content on this page to constantly change. 
           Thanks for visiting.  
           ... Don't judge...</p>
         </div>
-          <!--Nav bar here?-->
+        <br>
+          <nav class="nav-bar" aria-label="Main Navigation">
+            <ul>
+              <li><a href="#mycerts">My Certifications</a></li>
+              <li><a href="#contactinfo">Contact Info</a></li>
+              <li><a href="#myprojects">My Projects</a></li>
+              <li><a href="#bottom">Bottom of page</a></li>
+            </ul>
+          </nav>
+        <br>
       </header>
-    
+  
       <main>
-        <h2><u>My Certifications</u></h2>
+        <br>
+        <h2 id="mycerts"><u>My Certifications</u></h2>
         <div class="certification-container-pair">
         <div class="certification-container-left">
         <ul>
@@ -37,8 +48,9 @@
           <!--link to my freeCodeCamp.org profile page-->
         </div>
         </div>
+        <div class="space-container"></div>
      
-        <h2 class="left-aligned"><u>My Contact Info</u></h2>
+        <h2 id="contactinfo" class="left-aligned"><u>My Contact Info</u></h2>
         <br>
         <p>(pending...)</p>
         <br>
@@ -46,11 +58,11 @@
         <!--multiple anchor elements with pictures and links to their respective pages go here-->
 
       
-        <h2 class="left-aligned"><!--next section's title here--></h2>
-     
+        <h2 id="myprojects" class="left-aligned"><u>My projects</u></h2>
+        <p>Here are just a few of my many random projects.</p>
       </main>
       <footer>
-        <p class="left-aligned">Thank you for visiting my page! If you want to support my learning, donations are greatly appreciated... even if it's only a buck... or less... Thanks!</p>
+        <p id="bottom" class="left-aligned">Thank you for visiting my page! If you want to support my learning, donations are greatly appreciated... even if it's only a buck... or less... Thanks!</p>
       </footer>
   </body>
 </html>
