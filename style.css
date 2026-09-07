@@ -3,6 +3,10 @@ body {
   background-color: #2B547E;
 };
 
+h1 {
+  text-decoration: underlined;
+};
+
 .bold-text {
   font-weight: bold;
 };
