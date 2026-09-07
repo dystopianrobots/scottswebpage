@@ -7,6 +7,16 @@ h1, h2 {
   text-decoration: underlined;
 };
 
+.background-photo-one {
+  background-image: url('images/');
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 80vh;
+  width: 100%;
+};
+
 .bold-text {
   font-weight: bold;
 };
