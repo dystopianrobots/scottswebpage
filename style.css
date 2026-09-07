@@ -3,7 +3,7 @@ body {
   background-color: #2B547E;
 };
 
-h1 {
+h1, h2 {
   text-decoration: underlined;
 };
 
